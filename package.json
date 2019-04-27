@@ -27,5 +27,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "plop": "^2.3.0",
+    "react-kawaii": "^0.12.0"
   }
 }
