@@ -23,7 +23,7 @@ Sample output based on above CLI iputs
 ```
 import { Planet } from 'react-kawaii';
 
-const Example = () => <Planet size={200} mood="blissful" color="#FDA7DC" />;
+const Example = () => <Backpack size={ 300 } mood="lovestruck" color="#EC4067" />;
 ````
 
 
