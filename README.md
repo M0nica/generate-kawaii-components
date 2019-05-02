@@ -21,13 +21,9 @@ Sample output based on above CLI iputs
 ## Structure of a react-kawaii component
 
 ```
-import { Planet } from 'react-kawaii';
+import { Backpack } from 'react-kawaii';
 
 const Example = () => <Backpack size={ 300 } mood="lovestruck" color="#EC4067" />;
-````
+```
 
-
-For more information about about [React-Kawaii](https://react-kawaii.now.sh/) components visit https://github.com/miukimiu/react-kawaii or  https://react-kawaii.now.sh/
-
-
-
+For more information about about [React-Kawaii](https://react-kawaii.now.sh/) components visit https://github.com/miukimiu/react-kawaii or https://react-kawaii.now.sh/
