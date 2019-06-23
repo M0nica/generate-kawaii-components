@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-import LovestruckBackpack from "./LovestruckBackpack";
 import "./index.css";
+import LovestruckGhost from './LovestruckGhost';
 
 ReactDOM.render(
   <div>
     <h1>Demo</h1>
-    <LovestruckBackpack />,
+<LovestruckGhost />,
   </div>,
 
   document.getElementById("root")
