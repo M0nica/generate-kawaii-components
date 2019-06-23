@@ -74,22 +74,22 @@ module.exports = function(plop) {
         type: "add",
         path: "src/{{properCase mood}}{{properCase kawaiiComponent}}.test.jsx",
         templateFile: "src/plop-templates/test.hbs"
-      }
-      //  {
-      //   type: "append",
-      //   path: "src/index.js",
-      //   pattern: /import '.\/index.css';/,
-      //   unique: true,
-      //   templateFile: "src/plop-templates/import-component-template.hbs"
-      // },
+      },
+      {
+        type: "append",
+        path: "src/index.js",
+        pattern: /import ".\/index.css"[;]/,
+        unique: true,
+        templateFile: "src/plop-templates/import-component-template.hbs"
+      },
 
-      // {
-      //   type: "append",
-      //   path: "src/index.js",
-      //   pattern: /<div>/,
-      //   unique: true,
-      //   templateFile: "src/plop-templates/render-component-template.hbs"
-      // }
+      {
+        type: "append",
+        path: "src/index.js",
+        pattern: /<\/h1>/,
+        unique: true,
+        templateFile: "src/plop-templates/render-component-template.hbs"
+      }
     ]
   });
 };

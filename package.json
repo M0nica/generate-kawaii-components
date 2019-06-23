@@ -29,7 +29,7 @@
     ]
   },
   "devDependencies": {
-    "plop": "^2.3.0",
+    "plop": "^2.4.0",
     "react-kawaii": "^0.12.0"
   }
 }
