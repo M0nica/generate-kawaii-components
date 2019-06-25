@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Demo - Generate Kawaii Components",
+  "name": " CLI tool for generating kawaii components",
   "icons": [
     {
       "src": "favicon.ico",
